@@ -1,3 +1,82 @@
-body{
-    background-color: blue;
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #dee0e2;
+    font-family: 'Ubuntu', sans-serif;
+    overflow: visible;
+}
+
+canvas{
+    padding: 0;
+    margin:0;
+}
+
+#topContainer {
+    height: 150px;
+    background-color: #38517a;
+}
+
+#banner {
+    height: 70%;
+}
+
+#title {
+    height: 70%;
+    padding: 10px;
+    left: 25%;
+    font-size: 40pt;
+    text-align: center;
+    color: #ffffff;
+}
+
+#navBar {
+    height: 30%;
+}
+
+#midContainer {
+    height: 1000px;
+    background-color: #dee0e2;
+    /*Light Gray*/
+}
+
+.gameContainer {
+    height: 400px;
+    width: 100%;
+}
+
+#game1 {
+    background-image: white;
+    padding: 10px;
+    display: table;
+    margin: 0 auto;
+    width: 640px;
+    height: 480px;
+}
+
+#btmContainer {
+    height: 100px;
+    background-color: #38517a; /*Dark Blue*/
+    font-size: 10pt;
+    color: #86898e;
+}
+
+#legal {
+    padding: 10px;
+    padding-left: 20px;
+}
+
+#btmStuff ul{
+    padding:10px;
+    padding-left: 20px;
+    list-style-type: none;
+    margin:0;
+}
+
+#btmStuff li a{
+    color: #86898e;
+    text-decoration: none;
+}
+
+#btmStuff li a:hover{
+    text-decoration:underline
 }
